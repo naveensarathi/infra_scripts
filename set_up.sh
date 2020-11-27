@@ -1,4 +1,6 @@
 #!/bin/bash
+# Script to setup Host name and IP address on new Ubuntu linux 
+# ver1.0
 if [ "$#" -ne 2 ]
 then
         echo "Usage: ./set_up.sh HOSTNAME IP_ADDRESS"
